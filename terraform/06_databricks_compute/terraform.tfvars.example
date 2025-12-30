@@ -1,0 +1,3 @@
+resource_group_name = "rg-dbgenai-dev"
+secret_scope_name   = "aoai-scope"
+use_ml_runtime      = true

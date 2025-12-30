@@ -1,0 +1,4 @@
+resource_group_name  = "rg-dbgenai-dev"
+location             = "eastus2"
+account_name_prefix  = "aoaidbgenai"
+sku_name              = "S0"

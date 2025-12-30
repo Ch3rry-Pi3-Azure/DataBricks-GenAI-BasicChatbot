@@ -1,0 +1,4 @@
+resource_group_name  = "rg-dbgenai-dev"
+location             = "eastus2"
+key_vault_name_prefix = "kvdbgenai"
+sku_name             = "standard"
