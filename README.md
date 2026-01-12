@@ -38,17 +38,17 @@ python scripts\deploy.py --serving-only
 ```
 
 ## Project Structure
-- terraform/01_resource_group: Azure resource group
-- terraform/02_azure_openai: Azure OpenAI account
-- terraform/03_openai_deployment: Azure OpenAI model deployment
-- terraform/04_databricks_workspace: Azure Databricks workspace
-- terraform/05_key_vault: Azure Key Vault for secrets
-- terraform/06_databricks_compute: Databricks cluster + Key Vault-backed secret scope
-- terraform/07_notebooks: Databricks workspace notebooks
-- terraform/08_serving_endpoint: Databricks model serving endpoint
-- scripts/: Deploy/destroy helpers (auto-writes terraform.tfvars and .env)
-- guides/setup.md: Detailed setup guide
-- notebooks/: Databricks notebooks (tracked)
+- `terraform/01_resource_group`: Azure resource group
+- `terraform/02_azure_openai`: Azure OpenAI account
+- `terraform/03_openai_deployment`: Azure OpenAI model deployment
+- `terraform/04_databricks_workspace`: Azure Databricks workspace
+- `terraform/05_key_vault`: Azure Key Vault for secrets
+- `terraform/06_databricks_compute`: Databricks cluster + Key Vault-backed secret scope
+- `terraform/07_notebooks`: Databricks workspace notebooks
+- `terraform/08_serving_endpoint`: Databricks model serving endpoint
+- `scripts/`: Deploy/destroy helpers (auto-writes terraform.tfvars and .env)
+- `guides/setup.md`: Detailed setup guide
+- `notebooks/`: Databricks notebooks (tracked)
 
 ## Deploy/Destroy Options
 Deploy specific stacks:
